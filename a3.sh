@@ -13,7 +13,7 @@ usage(){
 
 # Function: Given a directory this function will print out all
 # contents, and if it stumbles upon another directory then we
-# recall this function. This will use a breadth first search
+# recall this function. This will use a depth first search
 # approach.
 
 process_directory(){
