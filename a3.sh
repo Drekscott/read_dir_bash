@@ -32,7 +32,7 @@ process_directory(){
 	echo "Subprocess finished successfully"
 }
 
-if [ $# -ne 1 ]; then
+if [[ $# -ne 1 || ! -d $1 ]]; then
 	usage
 fi
 process_directory "$1"
